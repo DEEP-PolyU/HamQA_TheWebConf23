@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=0 ./run_obqa.sh
 ```
 
 ## 4. Pretrained model checkpoints
-You can download a pretrained HamQA model on CommonsenseQA [here](https://drive.google.com/drive/folders/1SQq2Vhx0DhXFysnFL3TgFsS55Ydv7ggz?usp=sharing), which achieves an IH-test acc. of `0.7397`.
+You can download a pretrained HamQA model on CommonsenseQA [here](https://drive.google.com/drive/folders/1NxhCNo_yM9u_i08GuRHJiqIx1KylrG4g?usp=sharing), which achieves an IH-test acc. of `0.7397`.
 
 [comment]: <> (You can also download a pretrained HamQA model on OpenbookQA [here]&#40;https://drive.google.com/file/d/1-QqyiQuU9xlN20vwfIaqYQ_uJMP8d7Pv/view?usp=sharing&#41;, which achieves an test acc. of `84.8`.)
 
