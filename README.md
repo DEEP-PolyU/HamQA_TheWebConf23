@@ -49,7 +49,6 @@ You can specify the GPU you want to use in the beginning of the command `CUDA_VI
 * Identify all mentioned concepts in the questions and answers
 * Extract subgraphs for each q-a pair
 
-The script to download and preprocess the [MedQA-USMLE](https://github.com/jind11/MedQA) data and the biomedical knowledge graph based on Disease Database and DrugBank is provided in `utils_biomed/`.
 
 ### Directly download preprocessed data
 For your convenience, if you don't want to preprocess the data yourself, you can download all the preprocessed data [here](https://drive.google.com/drive/folders/1T6B4nou5P3u-6jr0z6e3IkitO8fNVM6f?usp=sharing). Download them into the top-level directory of this repo and unzip them. Move the `medqa_usmle` and `ddb` folders into the `data/` directory.
