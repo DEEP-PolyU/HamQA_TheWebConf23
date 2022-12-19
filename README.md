@@ -95,13 +95,13 @@ You can download a pretrained HamQA model on CommonsenseQA [here](https://drive.
 ## 5. Evaluating a pretrained model checkpoint
 To evaluate a pretrained HamQA model checkpoint on CommonsenseQA, run
 ```
-CUDA_VISIBLE_DEVICES=0 ./eval_csqa.sh  --data_dir data/ --load_model_path saved_modles/hamqa/csqa_model.pt
+CUDA_VISIBLE_DEVICES=0 ./eval_csqa.sh --load_model_path saved_modles/hamqa/csqa_model.pt
 ```
 Again you can specify up to 2 GPUs you want to use in the beginning of the command `CUDA_VISIBLE_DEVICES=...`.
 
 Similarly, to evaluate a pretrained HamQA model checkpoint on OpenbookQA, run
 ```
-CUDA_VISIBLE_DEVICES=0 ./eval_obqa.sh --data_dir data/ --load_model_path saved_modles/hamqa/obqa_model.pt
+CUDA_VISIBLE_DEVICES=0 ./eval_obqa.sh --load_model_path saved_modles/hamqa/obqa_model.pt
 ```
 
 ## 6. Use your own dataset
