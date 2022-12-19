@@ -78,13 +78,13 @@ The resulting file structure should look like this:
 ## 3. Training HamQA
 To train HamQA on CommonsenseQA, run
 ```
-CUDA_VISIBLE_DEVICES=0 ./run_csqa.sh --data_dir data/
+CUDA_VISIBLE_DEVICES=0 ./run_csqa.sh
 ```
 You can specify up to 2 GPUs you want to use in the beginning of the command `CUDA_VISIBLE_DEVICES=...`.
 
 Similarly, to train HamQA on OpenbookQA, run
 ```
-CUDA_VISIBLE_DEVICES=0 ./run_obqa.sh  --data_dir data/
+CUDA_VISIBLE_DEVICES=0 ./run_obqa.sh
 ```
 
 ## 4. Pretrained model checkpoints
