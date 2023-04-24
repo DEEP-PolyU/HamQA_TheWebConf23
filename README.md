@@ -1,4 +1,9 @@
-# HamQA
+# HamQA_TheWebConf23
+Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs, TheWebConf23(WWW23), Austin TX USA
+
+## Framework
+<img src="/images/HamQA_running.jpg" alt="HamQA_running" width="200"/><br>
+<img src="/images/HamQA.jpg" alt="HamQA" width="600"/>
 
 ## 1. Dependencies
 
@@ -86,9 +91,7 @@ CUDA_VISIBLE_DEVICES=0 ./run_obqa.sh
 ```
 
 ## 4. Pretrained model checkpoints
-You can download a pretrained HamQA (RoBERTa-Large) model on CommonsenseQA [here](https://drive.google.com/drive/folders/1NxhCNo_yM9u_i08GuRHJiqIx1KylrG4g?usp=sharing), which achieves an IH-test acc. of `0.7397`.
-
-You can also download a pretrained HamQA (RoBERTa-Large) model on OpenbookQA [here](https://drive.google.com/drive/folders/1NxhCNo_yM9u_i08GuRHJiqIx1KylrG4g?usp=sharing), which achieves an test acc. of `0.7110`.
+You can download a pretrained HamQA (RoBERTa-Large) model on CommonsenseQA and OpenbookQA [here](https://drive.google.com/drive/folders/1YxG3E9qas5boo5_3k-nvTz5k-AgyUwlD?usp=share_link).
 
 ## 5. Evaluating a pretrained model checkpoint
 To evaluate a pretrained HamQA model checkpoint on CommonsenseQA, run
