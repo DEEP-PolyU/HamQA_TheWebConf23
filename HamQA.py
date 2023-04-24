@@ -13,6 +13,7 @@ import numpy as np
 
 import socket, os, subprocess, datetime
 
+# seed
 seed = 1
 random.seed(seed)
 np.random.seed(seed)
