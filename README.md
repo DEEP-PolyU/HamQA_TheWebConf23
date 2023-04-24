@@ -1,6 +1,6 @@
-# HamQA: Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs
+# HamQA
 
-This repo provides the source code & data of our paper [HamQA: Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs].
+This repo provides the source code & data of our paper Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs.
 
 ## 1. Dependencies
 
