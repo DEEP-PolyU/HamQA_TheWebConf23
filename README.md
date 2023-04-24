@@ -1,7 +1,5 @@
 # HamQA
 
-This repo provides the source code & data of our paper Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs.
-
 ## 1. Dependencies
 
 - [Python](<https://www.python.org/>) == 3.8
