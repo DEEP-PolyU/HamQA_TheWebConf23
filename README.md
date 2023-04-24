@@ -104,8 +104,3 @@ Similarly, to evaluate a pretrained HamQA model checkpoint on OpenbookQA, run
 CUDA_VISIBLE_DEVICES=0 ./eval_obqa.sh --load_model_path saved_modles/hamqa/obqa_model.pt
 ```
 
-## 6. Use your own dataset
-- Convert your dataset to  `{train,dev,test}.statement.jsonl`  in .jsonl format (see `data/csqa/statement/train.statement.jsonl`)
-- Create a directory in `data/{yourdataset}/` to store the .jsonl files
-- Modify `preprocess.py` and perform subgraph extraction for your data
-- Modify `utils/parser_utils.py` to support your own dataset
