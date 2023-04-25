@@ -2,7 +2,7 @@
 Hierarchy-Aware Multi-Hop Question Answering over Knowledge Graphs, TheWebConf23(WWW23), Austin TX USA
 
 ## Framework
-<img src="/images/HamQA_running.jpg" alt="HamQA_running" width="200"/><br>
+<img src="/images/HamQA_running.jpg" alt="HamQA_running" width="300"/><br>
 <img src="/images/HamQA.jpg" alt="HamQA" width="600"/>
 
 ## 1. Dependencies
